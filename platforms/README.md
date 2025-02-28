@@ -11,6 +11,5 @@ This task intentionally sounds challenging and contains language not frequently 
 
 > ANSWER BOX
 ```
-// TODO: Fill me in!
-
+First, I pulled the matrixdotorg/synapse image from Docker Hub using the docker pull command. After that, I ran the server. To register as a user on this server, I used the docker exec -it command. Since Matrix Federation requires the HTTPS protocol, I set up Nginx to handle the encryption. Once the setup was complete, I tested the server using Matrix Federation Tester. Finally, I was able to send a message to @chino:oxn.sh.
 ```
